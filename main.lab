@@ -1,0 +1,42 @@
+// Pallaxa - BB8 needs based AI - First Approach
+// by Christian "pallaxa@googlemail.com" Golle
+//
+// NEEDS:
+// - Socialization	(-100 - 100)
+// - Energy			(-100 - 100)
+// - Fun			(-100 - 100)
+// - Curiosity		(-100 - 100)
+// - Safety			(-100 - 100)
+//
+// PERSONALITY:
+// The Personality can be changed/adjusted through the following traits:
+// shy    	0 - 100 outgoing
+// serious	0 - 100 playful
+// lazy		0 - 100 active
+// mean		0 - 100 nice
+// 
+// MOODS:
+// - 
+
+//	NEEDS
+float social 	= 0.0;		//	will decrease with time
+float energy	= 0.0;		//	real battery amount based calculation
+float fun    	= 0.0;		//	will decrease with time
+float curiosity = 0.0;		//	will decrease with time
+float safety 	= 0.0;		//	will decrease by events and location
+
+float happiness = 0.0;
+
+int mood 		= 0;		//	impacts the tendency for specific actions
+
+//	ACTIONS
+
+
+void startProgram()
+{
+	// 1. check for a new event in the event loop
+	// 2. check your current needs
+	// 3. calculate current mood
+	// 4. if u have a task check if you want to continue or if fullfilling a need is more important
+	// 5. try to increase happiness by fullfilling needs
+}
